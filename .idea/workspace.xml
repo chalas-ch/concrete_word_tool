@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Reverse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +33,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -71,17 +72,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581090637904</updated>
-      <workItem from="1581090639653" duration="318000" />
+      <workItem from="1581090639653" duration="967000" />
+      <workItem from="1581092383544" duration="1062000" />
+      <workItem from="1581155299139" duration="505000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1581091392798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581091392798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="314" y="60" key="CommitChangelistDialog2" timestamp="1581091360086">
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="314" y="60" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1581091360086" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
+    <state x="314" y="60" key="CommitChangelistDialog2" timestamp="1581091392562">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="314" y="60" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1581091392562" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1581092458533">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581092458533" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1581091762267">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1581091762267" />
   </component>
 </project>
