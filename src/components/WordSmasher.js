@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Reverse from "./Reverse";
 import Pyramid from "./Pyramid";
 import Apothegm from "./Apothegm";
+import ReversePyramid from "./InvertedPyramid";
 
 //import PropTypes from 'prop-types';
 
@@ -34,7 +35,8 @@ class WordSmasher extends Component {
 				/>
 				<br/>
 				<Reverse input={this.state.input}/>
-                <Pyramid input={this.state.input}/>
+				<Pyramid input={this.state.input}/>
+				<ReversePyramid input={this.state.input}/>
                 <Apothegm input={this.state.input}/>
 			</div>
 		);

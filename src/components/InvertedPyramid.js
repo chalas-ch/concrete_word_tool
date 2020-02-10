@@ -7,17 +7,14 @@ const pyramidify = (str) => {
 		pyramidString = "";
 		return "";
 	} else {
-		//for (let i = 0; i < str.length; i++) {
-		for (let i = str.length -1; i >= 0; i--) {
-			if (str !== "") {
-				pyramidString = pyramidString + str.slice(i) + "\n";
-			}
+		for (let i = 0; i < str.length; i++) {
+			pyramidString = pyramidString + str.slice(i) + "\n";
 		}
 		return pyramidString;
 	}
 };
 
-class Pyramid extends Component {
+class InvertedPyramid extends Component {
 	constructor(props) {
 		super(props);
 
@@ -37,7 +34,7 @@ class Pyramid extends Component {
 	render() {
 		return (
 			<>
-				<div>Pyramid</div>
+				<div>Inverted Pyramid</div>
 				<textarea
 					rows="10"
 					cols="50"
@@ -50,4 +47,4 @@ class Pyramid extends Component {
 	}
 };
 
-export default Pyramid;
+export default InvertedPyramid;
