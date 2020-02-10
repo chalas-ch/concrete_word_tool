@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/InvertedPyramid.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pyramid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WordSmasher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,7 @@
       <workItem from="1581090639653" duration="967000" />
       <workItem from="1581092383544" duration="1062000" />
       <workItem from="1581155299139" duration="505000" />
-      <workItem from="1581342186138" duration="11194000" />
+      <workItem from="1581342186138" duration="11383000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581353190712</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added inverted pyramid">
+      <created>1581354400710</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354400710</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +194,8 @@
     <MESSAGE value="removed yarn.lock, put back package.json" />
     <MESSAGE value="added package-lock.json" />
     <MESSAGE value="added node-sass" />
-    <option name="LAST_COMMIT_MESSAGE" value="added node-sass" />
+    <MESSAGE value="added inverted pyramid" />
+    <option name="LAST_COMMIT_MESSAGE" value="added inverted pyramid" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">
