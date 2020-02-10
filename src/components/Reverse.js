@@ -15,7 +15,7 @@ const ReverseFunction = (props) => {
                 rows="10"
                 cols="50"
                 value={reverseString(props.input)}
-                className="reverse_textarea"
+                className="reverse_textarea passive_textarea"
             >
 			</textarea>
         </>

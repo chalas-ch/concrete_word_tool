@@ -1,20 +1,20 @@
 import React, {Component} from "react";
 
+let apothegmString = "";
 
-const pyramidify = (str) => {
-	let pyramidString = "";
+const Apothegmify = (str) => {
 	if (str === "") {
-		pyramidString = "";
+		apothegmString = "";
 		return "";
 	} else {
 		for (let i = 0; i < str.length; i++) {
-			pyramidString = pyramidString + str.slice(i) + "\n";
+			apothegmString = apothegmString + str.slice(i);
 		}
-		return pyramidString;
+		return apothegmString;
 	}
 };
 
-class Pyramid extends Component {
+class Apothegm extends Component {
 	constructor(props) {
 		super(props);
 
@@ -34,12 +34,12 @@ class Pyramid extends Component {
 	render() {
 		return (
 			<>
-				<div>Pyramid</div>
+				<div>Apothegm</div>
 				<textarea
 					rows="10"
 					cols="50"
-					value={pyramidify(this.state.input)}
-					className="pyramid_textarea passive_textarea"
+					value={Apothegmify(this.state.input)}
+					className="apothegm_textarea passive_textarea"
 				>
 			</textarea>
 			</>
@@ -47,4 +47,4 @@ class Pyramid extends Component {
 	}
 };
 
-export default Pyramid;
+export default Apothegm;
