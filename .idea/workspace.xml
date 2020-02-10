@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="" />
+    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <workItem from="1581090639653" duration="967000" />
       <workItem from="1581092383544" duration="1062000" />
       <workItem from="1581155299139" duration="505000" />
-      <workItem from="1581342186138" duration="9253000" />
+      <workItem from="1581342186138" duration="9999000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581352294810</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="removed yarn.lock, put back package.json">
+      <created>1581352404437</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581352404437</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +169,8 @@
     <MESSAGE value="Apothegm tool kind of works but its UX is not optimized" />
     <MESSAGE value="test build" />
     <MESSAGE value="removed package.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed package.json" />
+    <MESSAGE value="removed yarn.lock, put back package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed yarn.lock, put back package.json" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">
