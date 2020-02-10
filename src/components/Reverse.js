@@ -1,36 +1,24 @@
-import React, {Component} from 'react';
+import React from "react";
 
-function reverseString(str) {
+const reverseString = (str) => {
     if (str === "")
         return "";
     else
         return reverseString(str.substr(1)) + str.charAt(0);
-}
+};
 
-class Reverse extends Component {
-    constructor(props) {
-        super(props);
+const ReverseFunction = (props) => {
+    return (
+        <>
+			<textarea
+                rows="10"
+                cols="50"
+                value={reverseString(props.input)}
+                className="reverse_textarea"
+            >
+			</textarea>
+        </>
+    );
+};
 
-        this.state = {
-            input: props.input
-        };
-
-        this.handleChange = this.handleChange.bind(this);
-    }
-
-    handleChange(event) {
-        this.setState({
-            input: event.target.value
-        });
-    }
-
-    render() {
-        return (
-            <>
-                <textarea rows="10" cols="50" value={reverseString(this.props.input)}></textarea>
-            </>
-        );
-    }
-}
-
-export default Reverse;
+export default ReverseFunction;
