@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Cuke.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CukeReturn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pyramid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/text.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reverse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/WordSmasher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
@@ -35,6 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,6 +48,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_code\concrete_word_tool\src\components" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -84,7 +94,7 @@
       <workItem from="1581090639653" duration="967000" />
       <workItem from="1581092383544" duration="1062000" />
       <workItem from="1581155299139" duration="505000" />
-      <workItem from="1581342186138" duration="2288000" />
+      <workItem from="1581342186138" duration="5912000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -93,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581091392798</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed Reverse component to a functional component">
+      <created>1581345355934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581345355934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,8 +135,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="changed Reverse component to a functional component" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed Reverse component to a functional component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">

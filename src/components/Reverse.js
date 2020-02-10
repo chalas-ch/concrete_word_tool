@@ -10,6 +10,7 @@ const reverseString = (str) => {
 const ReverseFunction = (props) => {
     return (
         <>
+            <div>Reverse</div>
 			<textarea
                 rows="10"
                 cols="50"

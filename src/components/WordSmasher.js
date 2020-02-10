@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import Reverse from "./Reverse";
+import Pyramid from "./Pyramid";
+import Cuke from "./Cuke";
+import CukeReturn from "./CukeReturn";
 
 //import PropTypes from 'prop-types';
 
@@ -31,6 +34,9 @@ class WordSmasher extends Component {
 				/>
 				<br/>
 				<Reverse input={this.state.input}/>
+                <Pyramid input={this.state.input}/>
+                <Cuke input={this.state.input}/>
+                <CukeReturn input={this.state.input}/>
 			</div>
 		);
 	}
