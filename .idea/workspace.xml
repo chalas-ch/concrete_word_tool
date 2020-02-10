@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Apothegm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Cuke.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CukeReturn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pyramid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reverse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WordSmasher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
-    </list>
+    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +86,7 @@
       <workItem from="1581090639653" duration="967000" />
       <workItem from="1581092383544" duration="1062000" />
       <workItem from="1581155299139" duration="505000" />
-      <workItem from="1581342186138" duration="8662000" />
+      <workItem from="1581342186138" duration="9004000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -119,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581348977490</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Apothegm tool kind of works but its UX is not optimized">
+      <created>1581351771968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581351771968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +146,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed Reverse component to a functional component" />
     <MESSAGE value="Pyramid tool works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pyramid tool works" />
+    <MESSAGE value="Apothegm tool kind of works but its UX is not optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apothegm tool kind of works but its UX is not optimized" />
   </component>
   <component name="WindowStateProjectService">
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">
