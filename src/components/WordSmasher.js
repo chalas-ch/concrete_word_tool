@@ -39,7 +39,7 @@ class WordSmasher extends Component {
 				<Pyramid input={this.state.input}/>
 				<ReversePyramid input={this.state.input}/>
                 <Apothegm input={this.state.input}/>
-                <Datamuse input={this.state.input}/>
+                {/*<Datamuse input={this.state.input}/>*/}
 			</div>
 		);
 	}

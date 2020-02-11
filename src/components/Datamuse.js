@@ -4,12 +4,13 @@ import React, {Component} from "react";
 const url = "https://api.datamuse.com/words";
 const queryParams = "?sl=";
 
-var myHeaders = new Headers();
-var myInit = {
+const myHeaders = new Headers();
+const myInit = {
 	method: "GET",
 	headers: myHeaders,
 	mode: "cors",
 	cache: "default",
+	origin: "*"
 };
 
 // AJAX function
@@ -41,20 +42,42 @@ class Datamuse extends Component {
 			time: Date.now()
 		};
 
-		//this.getSuggestions = this.getSuggestions.bind(this);
+		this.fetchData = this.fetchData.bind(this);
 	}
 
 	componentDidMount() {
 		console.log(`component mounted ${this.state.time}`);
+		this.fetchData();
+
 		//fetchWords(this.props.input);
-		this.interval = setInterval(() => this.setState({content: fetchWords(this.props.input)}), 2000);
-		console.log(`content : ${this.state.content}`);
+		//this.interval = setInterval(() => this.setState({content: fetchWords(this.props.input)}), 2000);
+		//console.log(`content : ${this.state.content}`);
 	}
 
 	componentWillUnmount() {
-		console.log(`component unmounted ${this.state.time}`);
-		clearInterval(this.interval);
+		//console.log(`component unmounted ${this.state.time}`);
+		//clearInterval(this.interval);
 	}
+
+	componentWillUpdate() {
+		console.log(`component updated ${this.state.time}`);
+		this.fetchData();
+	}
+
+	fetchData = () => {
+		const endpoint = `${url}${queryParams}${this.state.input}`;
+		fetch(endpoint, myInit).then(response => {
+			if (response.ok) {
+				return response.json();
+			}
+			console.log("Request failed!");
+		}, networkError => {
+			console.log(networkError.message);
+		}).then(jsonResponse => {
+			console.log(JSON.stringify(jsonResponse));
+			this.setState({content: JSON.stringify(jsonResponse)});
+		});
+	};
 
 	render() {
 		return (
@@ -64,7 +87,7 @@ class Datamuse extends Component {
 					rows="10"
 					cols="50"
 					value={this.state.content}
-					className="pyramid_textarea passive_textarea"
+					className="datamuse_textarea passive_textarea"
 				>
 			</textarea>
 			</>
