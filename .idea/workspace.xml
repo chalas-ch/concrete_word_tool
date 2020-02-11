@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Datamuse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Apothegm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Apothegm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InvertedPyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InvertedPyramid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pyramid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WordSmasher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,18 +50,6 @@
       <recent name="D:\_code\concrete_word_tool\src\components" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -86,7 +78,10 @@
       <workItem from="1581090639653" duration="967000" />
       <workItem from="1581092383544" duration="1062000" />
       <workItem from="1581155299139" duration="505000" />
-      <workItem from="1581342186138" duration="11383000" />
+      <workItem from="1581342186138" duration="12081000" />
+      <workItem from="1581413818082" duration="138000" />
+      <workItem from="1581414061323" duration="634000" />
+      <workItem from="1581414810112" duration="9539000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -158,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581354400710</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="changed css">
+      <created>1581354609380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581354609380</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +178,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -195,12 +199,14 @@
     <MESSAGE value="added package-lock.json" />
     <MESSAGE value="added node-sass" />
     <MESSAGE value="added inverted pyramid" />
-    <option name="LAST_COMMIT_MESSAGE" value="added inverted pyramid" />
+    <MESSAGE value="changed css" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581155237262">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581414760742">
+      <screen x="0" y="0" width="2560" height="1410" />
     </state>
+    <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1581414760742" />
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
     <state x="314" y="60" key="CommitChangelistDialog2" timestamp="1581091392562">
       <screen x="0" y="23" width="1440" height="877" />
@@ -210,6 +216,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581092458533" />
+    <state x="911" y="348" width="738" height="714" key="find.popup" timestamp="1581431375781">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="911" y="348" width="738" height="714" key="find.popup/0.0.2560.1410@0.0.2560.1410" timestamp="1581431375781" />
     <state x="385" y="213" key="search.everywhere.popup" timestamp="1581091762267">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

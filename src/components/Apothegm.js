@@ -25,12 +25,6 @@ class Apothegm extends Component {
 		//this.handleChange = this.handleChange.bind(this);
 	}
 
-	componentWillReceiveProps(nextProps, nextContext) {
-		if (nextProps.input !== this.state.input) {
-			this.setState({input: nextProps.input});
-		}
-	}
-
 	render() {
 		return (
 			<>
@@ -38,7 +32,7 @@ class Apothegm extends Component {
 				<textarea
 					rows="10"
 					cols="50"
-					value={Apothegmify(this.state.input)}
+					value={Apothegmify(this.props.input)}
 					className="apothegm_textarea passive_textarea"
 				>
 			</textarea>

@@ -25,12 +25,6 @@ class InvertedPyramid extends Component {
 		//this.handleChange = this.handleChange.bind(this);
 	}
 
-	componentWillReceiveProps(nextProps, nextContext) {
-		if (nextProps.input !== this.state.input) {
-			this.setState({input: nextProps.input});
-		}
-	}
-
 	render() {
 		return (
 			<>
@@ -38,7 +32,7 @@ class InvertedPyramid extends Component {
 				<textarea
 					rows="10"
 					cols="50"
-					value={pyramidify(this.state.input)}
+					value={pyramidify(this.props.input)}
 					className="pyramid_textarea passive_textarea"
 				>
 			</textarea>
