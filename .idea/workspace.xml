@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Datamuse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Datamuse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WordSmasher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordSmasher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +75,7 @@
       <workItem from="1581342186138" duration="12081000" />
       <workItem from="1581413818082" duration="138000" />
       <workItem from="1581414061323" duration="634000" />
-      <workItem from="1581414810112" duration="11485000" />
+      <workItem from="1581414810112" duration="12125000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -164,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581435275966</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="removed datamuse component, too complicated for its use">
+      <created>1581438192769</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581438192770</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +209,8 @@
     <MESSAGE value="added inverted pyramid" />
     <MESSAGE value="changed css" />
     <MESSAGE value="battling with datamuse fetch, not finished, safety commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="battling with datamuse fetch, not finished, safety commit" />
+    <MESSAGE value="removed datamuse component, too complicated for its use" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed datamuse component, too complicated for its use" />
   </component>
   <component name="WindowStateProjectService">
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581414760742">
@@ -213,15 +218,19 @@
     </state>
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1581414760742" />
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
-    <state x="558" y="59" key="CommitChangelistDialog2" timestamp="1581435273888">
+    <state x="558" y="59" key="CommitChangelistDialog2" timestamp="1581438191127">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
-    <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581435273888" />
+    <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581438191127" />
     <state x="314" y="60" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1581091392562" />
     <state x="229" y="100" key="SettingsEditor" timestamp="1581092458533">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581092458533" />
+    <state x="772" y="367" key="Vcs.Push.Dialog.v2" timestamp="1581441908607">
+      <screen x="0" y="0" width="2560" height="1410" />
+    </state>
+    <state x="772" y="367" key="Vcs.Push.Dialog.v2/0.0.2560.1410@0.0.2560.1410" timestamp="1581441908607" />
     <state x="911" y="348" width="738" height="714" key="find.popup" timestamp="1581431375781">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
