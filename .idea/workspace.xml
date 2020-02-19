@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ideas.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582108665823</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="modified README.md">
+      <created>1582109973156</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582109973156</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +233,8 @@
     <MESSAGE value="battling with datamuse fetch, not finished, safety commit" />
     <MESSAGE value="removed datamuse component, too complicated for its use" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="modified README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#Notifications" timestamp="1582108388953">
@@ -238,11 +246,11 @@
     </state>
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1581414760742" />
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
-    <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1582108665675">
+    <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1582109972986">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581438191127" />
-    <state x="314" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582108665675" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582109972986" />
     <state x="229" y="100" key="SettingsEditor" timestamp="1582108373647">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
