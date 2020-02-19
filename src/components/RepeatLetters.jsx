@@ -16,7 +16,7 @@ const repeater = (str, repetitions) => {
 };
 
 const RepeatLetters = (props) => {
-    const [repetitions, setRepetitions] = useState(1);
+    const [repetitions, setRepetitions] = useState(2);
     const handleInputChange = (e) => setRepetitions(e.currentTarget.value);
 
     return (
