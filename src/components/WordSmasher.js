@@ -3,7 +3,8 @@ import Reverse from "./Reverse";
 import Pyramid from "./Pyramid";
 import Apothegm from "./Apothegm";
 import ReversePyramid from "./InvertedPyramid";
-import Datamuse from "./Datamuse";
+//import Datamuse from "./Datamuse";
+import RepeatLetters from "./RepeatLetters";
 
 //import PropTypes from 'prop-types';
 
@@ -38,7 +39,8 @@ class WordSmasher extends Component {
 				<Reverse input={this.state.input}/>
 				<Pyramid input={this.state.input}/>
 				<ReversePyramid input={this.state.input}/>
-                <Apothegm input={this.state.input}/>
+				<Apothegm input={this.state.input}/>
+				<RepeatLetters input={this.state.input}/>
                 {/*<Datamuse input={this.state.input}/>*/}
 			</div>
 		);
