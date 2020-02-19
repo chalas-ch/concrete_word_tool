@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="" />
+    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -166,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581438192770</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="workspace.xml">
+      <created>1582108249074</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582108249074</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,32 +217,41 @@
     <MESSAGE value="changed css" />
     <MESSAGE value="battling with datamuse fetch, not finished, safety commit" />
     <MESSAGE value="removed datamuse component, too complicated for its use" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed datamuse component, too complicated for its use" />
+    <MESSAGE value="workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="320" y="127" key="#Notifications" timestamp="1582108388953">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1582108388953" />
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581414760742">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1581414760742" />
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
-    <state x="558" y="59" key="CommitChangelistDialog2" timestamp="1581438191127">
-      <screen x="0" y="0" width="2560" height="1410" />
-    </state>
-    <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581438191127" />
-    <state x="314" y="60" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1581091392562" />
-    <state x="229" y="100" key="SettingsEditor" timestamp="1581092458533">
+    <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1582108248809">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581092458533" />
-    <state x="434" y="251" key="Vcs.Push.Dialog.v2" timestamp="1582108085107">
+    <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581438191127" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582108248809" />
+    <state x="229" y="100" key="SettingsEditor" timestamp="1582108373647">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="229" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1582108373647" />
+    <state x="434" y="251" key="Vcs.Push.Dialog.v2" timestamp="1582108600042">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="772" y="367" key="Vcs.Push.Dialog.v2/0.0.2560.1410@0.0.2560.1410" timestamp="1581441908607" />
-    <state x="434" y="251" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1582108085107" />
+    <state x="434" y="251" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1582108600042" />
     <state x="911" y="348" width="738" height="714" key="find.popup" timestamp="1581431375781">
       <screen x="0" y="0" width="2560" height="1410" />
     </state>
     <state x="911" y="348" width="738" height="714" key="find.popup/0.0.2560.1410@0.0.2560.1410" timestamp="1581431375781" />
+    <state x="360" y="242" key="git4idea.merge.GitPullDialog" timestamp="1582108589167">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="360" y="242" key="git4idea.merge.GitPullDialog/0.23.1440.877@0.23.1440.877" timestamp="1582108589167" />
     <state x="385" y="213" key="search.everywhere.popup" timestamp="1581091762267">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
