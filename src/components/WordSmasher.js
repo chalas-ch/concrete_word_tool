@@ -37,12 +37,12 @@ class WordSmasher extends Component {
 						  placeholder="type here"
 				/>
 				<br/>
+				<ShuffleLetters input={this.state.input}/>
+				<RepeatLetters input={this.state.input}/>
 				<Reverse input={this.state.input}/>
 				<Pyramid input={this.state.input}/>
 				<ReversePyramid input={this.state.input}/>
 				<Apothegm input={this.state.input}/>
-				<RepeatLetters input={this.state.input}/>
-				<ShuffleLetters input={this.state.input}/>
                 {/*<Datamuse input={this.state.input}/>*/}
 			</div>
 		);
