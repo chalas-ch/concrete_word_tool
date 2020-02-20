@@ -6,6 +6,8 @@ import ReversePyramid from "./InvertedPyramid";
 //import Datamuse from "./Datamuse";
 import RepeatLetters from "./RepeatLetters";
 import ShuffleLetters from "./ShuffleLetters";
+import DeleteWords from "./DeleteWords";
+import InvisibleWords from "./InvisibleWords";
 
 //import PropTypes from 'prop-types';
 
@@ -37,6 +39,8 @@ class WordSmasher extends Component {
 						  placeholder="type here"
 				/>
 				<br/>
+				<InvisibleWords input={this.state.input}/>
+				<DeleteWords input={this.state.input}/>
 				<ShuffleLetters input={this.state.input}/>
 				<RepeatLetters input={this.state.input}/>
 				<Reverse input={this.state.input}/>
