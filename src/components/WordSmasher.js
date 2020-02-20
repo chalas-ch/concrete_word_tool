@@ -10,6 +10,7 @@ import DeleteWords from "./DeleteWords";
 import InvisibleWords from "./InvisibleWords";
 
 import styles from '../scss/WordSmasher.module.scss';
+import LettersPermutations from "./LettersPermutations";
 
 //import PropTypes from 'prop-types';
 
@@ -42,6 +43,7 @@ class WordSmasher extends Component {
 					/>
                 </div>
                 <div className={styles.outputArea}>
+                    <LettersPermutations input={this.state.input}/>
                     <InvisibleWords input={this.state.input}/>
                     <DeleteWords input={this.state.input}/>
                     <ShuffleLetters input={this.state.input}/>
