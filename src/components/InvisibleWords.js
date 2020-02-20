@@ -9,8 +9,8 @@ const wordEraser = (string, wordPercentage) => {
     let percent = getXPercent(wordPercentage, wordArray.length);
 
     for (let i = 0; i < Math.round(percent); i++) {
-        let randomItem = Math.floor(Math.random()*wordArray.length);
-        wordArray[randomItem] = " ".repeat(wordArray[randomItem].length);
+        let randomIndex = Math.floor(Math.random()*wordArray.length);
+        wordArray[randomIndex] = " ".repeat(wordArray[randomIndex].length);
     }
 
     return wordArray.join(" ");
