@@ -5,6 +5,7 @@ import Apothegm from "./Apothegm";
 import ReversePyramid from "./InvertedPyramid";
 //import Datamuse from "./Datamuse";
 import RepeatLetters from "./RepeatLetters";
+import RepeatWords from "./RepeatWords";
 import ShuffleLetters from "./ShuffleLetters";
 import DeleteWords from "./DeleteWords";
 import InvisibleWords from "./InvisibleWords";
@@ -58,6 +59,7 @@ class WordSmasher extends Component {
                     <DeleteWords input={this.state.input}/>
                     <ShuffleLetters input={this.state.input}/>
                     <RepeatLetters input={this.state.input}/>
+                    <RepeatWords input={this.state.input}/>
                     <Reverse input={this.state.input}/>
                     <Pyramid input={this.state.input}/>
                     <ReversePyramid input={this.state.input}/>
