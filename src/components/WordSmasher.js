@@ -13,6 +13,9 @@ import styles from '../scss/WordSmasher.module.scss';
 import LettersPermutations from "./LettersPermutations";
 import WordsPermutation from "./WordsPermutation";
 import RandomTabs from "./RandomTabs";
+import SortLetters from "./SortLetters";
+import SortWordsAlphabetically from "./SortWordsAlphabetically";
+import SortWordsByLength from "./SortWordsByLength";
 
 //import PropTypes from 'prop-types';
 
@@ -45,6 +48,9 @@ class WordSmasher extends Component {
 					/>
                 </div>
                 <div className={styles.outputArea}>
+                    <SortWordsByLength input={this.state.input}/>
+                    <SortWordsAlphabetically input={this.state.input}/>
+                    <SortLetters input={this.state.input}/>
                     <RandomTabs input={this.state.input}/>
                     <WordsPermutation input={this.state.input}/>
                     <LettersPermutations input={this.state.input}/>
