@@ -13,13 +13,12 @@ let permutator = (string) => {
             if (string.indexOf(char) !== i) // if char was used already
                 continue; // skip it this time
 
-            let remainingString = string.slice(0, i) + string.slice(i + 1, string.length); //Note: you can concat Strings via '+' in JS
+            let remainingString = string.slice(0, i)
+                + string.slice(i + 1, string.length); //Note: you can concat Strings via '+' in JS
 
             for (let subPermutation of permutator(remainingString))
                 permutations.push(char + subPermutation)
         }
-
-        console.log(permutations.join(" "));
 
         return permutations;
     } else {
@@ -30,7 +29,7 @@ let permutator = (string) => {
 const LettersPermutations = (props) => {
     return (
         <>
-            <div>Permutations (Limit: 8 characters)</div>
+            <div>Letters Permutations (Limit: 7 characters)</div>
             <textarea
                 rows="10"
                 cols="50"
