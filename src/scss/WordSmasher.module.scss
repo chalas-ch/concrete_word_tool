@@ -1,0 +1,28 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.inputArea {
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.inputArea textarea {
+  width: 100%;
+  height: 100%;
+}
+
+.outputArea {
+  height: 90vh;
+  overflow-y: scroll;
+  flex-grow: 1;
+  padding: 30px;
+}
+
+.outputArea textarea {
+  background-color: #fbede6;
+  text-align: center;
+  width: 100%;
+}
