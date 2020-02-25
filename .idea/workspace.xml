@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="added ideas.md">
-      <change afterPath="$PROJECT_DIR$/src/components/OutputText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OutputTextNumbered.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OutputTextPercentage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/helpers/Helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useFilter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Apothegm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Apothegm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DeleteWords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DeleteWords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InvertedPyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InvertedPyramid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/InvisibleWords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InvisibleWords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LettersPermutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LettersPermutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pyramid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pyramid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RandomTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RandomTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepeatLetters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepeatLetters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RepeatWords.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RepeatWords.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Reverse.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reverse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ShuffleLetters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShuffleLetters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WordsPermutation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WordsPermutation.js" afterDir="false" />
-    </list>
+    <list default="true" id="977bde2d-716d-429e-9fdf-9f58561924dc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +80,7 @@
       <workItem from="1581414061323" duration="634000" />
       <workItem from="1581414810112" duration="12125000" />
       <workItem from="1582186948480" duration="14463000" />
-      <workItem from="1582637708636" duration="5234000" />
+      <workItem from="1582637708636" duration="5312000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1581091392798</created>
@@ -220,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582113546329</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="refactored component tree, added OutputText.js, OutputTextNumbered.js &amp; OutputTextPercentage.js, Helpers.js.&#10;Code reuse is now more optimized">
+      <created>1582644638972</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1582644638972</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +253,8 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="modified README.md" />
     <MESSAGE value="added ideas.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added ideas.md" />
+    <MESSAGE value="refactored component tree, added OutputText.js, OutputTextNumbered.js &amp; OutputTextPercentage.js, Helpers.js.&#10;Code reuse is now more optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored component tree, added OutputText.js, OutputTextNumbered.js &amp; OutputTextPercentage.js, Helpers.js.&#10;Code reuse is now more optimized" />
   </component>
   <component name="WindowStateProjectService">
     <state x="320" y="127" key="#Notifications" timestamp="1582108388953">
@@ -281,11 +270,11 @@
     </state>
     <state x="725" y="291" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1410@0.0.2560.1410" timestamp="1581414760742" />
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1581155237262" />
-    <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1582190387538">
+    <state x="314" y="23" key="CommitChangelistDialog2" timestamp="1582644638596">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="558" y="59" key="CommitChangelistDialog2/0.0.2560.1410@0.0.2560.1410" timestamp="1581438191127" />
-    <state x="314" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582190387538" />
+    <state x="314" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1582644638596" />
     <state x="229" y="100" key="SettingsEditor" timestamp="1582108373647">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
