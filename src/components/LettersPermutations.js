@@ -1,4 +1,5 @@
 import React from 'react';
+import OutputText from "./OutputText";
 
 let permutator = (string) => {
     if (string.length < 2) {
@@ -29,14 +30,11 @@ let permutator = (string) => {
 const LettersPermutations = (props) => {
     return (
         <>
-            <div>Letters Permutations (Limit: 7 characters)</div>
-            <textarea
-                rows="10"
-                cols="50"
+            <OutputText
+                title="Letters Permutations (Limit: 7 characters)"
                 value={permutator(props.input).join("\n")}
-                className="reverse_textarea passive_textarea"
-            >
-			</textarea>
+                name="letters_permutations"
+            />
         </>
     );
 };

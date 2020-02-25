@@ -1,4 +1,5 @@
 import React from "react";
+import OutputText from "./OutputText";
 
 const reverseString = (str) => {
     if (str === "")
@@ -7,19 +8,16 @@ const reverseString = (str) => {
         return reverseString(str.substr(1)) + str.charAt(0);
 };
 
-const ReverseFunction = (props) => {
+const Reverse = (props) => {
     return (
         <>
-            <div>Reverse</div>
-			<textarea
-                rows="10"
-                cols="50"
+            <OutputText
+                title="Reverse"
                 value={reverseString(props.input)}
-                className="reverse_textarea passive_textarea"
-            >
-			</textarea>
+                name="reverse"
+            />
         </>
     );
 };
 
-export default ReverseFunction;
+export default Reverse;

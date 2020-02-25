@@ -1,4 +1,5 @@
 import React from 'react';
+import OutputText from "./OutputText";
 
 const shuffler = (str) => {
     var a = str.split(""),
@@ -16,16 +17,11 @@ const shuffler = (str) => {
 const ShuffleLetters = (props) => {
     return (
         <>
-            <div>
-                Shuffle Letters
-            </div>
-            <textarea
-                rows="10"
-                cols="50"
+            <OutputText
+                title="Shuffle Letters"
                 value={shuffler(props.input)}
-                className="shuffleLetters_textarea passive_textarea"
-            >
-			</textarea>
+                name="shuffle_letters"
+            />
         </>
     );
 };

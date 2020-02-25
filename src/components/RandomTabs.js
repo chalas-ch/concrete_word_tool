@@ -1,15 +1,13 @@
-import React, {useState} from 'react';
-
-const getXPercent = (percentage, value) => {
-    return (percentage / 100) * value;
-};
+import React from 'react';
+import {getXPercent} from "../helpers/Helpers";
+import OutputTextPercentage from "./OutputTextPercentage";
 
 const randomTabulator = (string, tabPercentage) => {
     let wordArray = string.trim().split(" ");
     let percent = getXPercent(tabPercentage, wordArray.length);
 
     for (let i = 0; i < Math.round(percent); i++) {
-        let randomIndex = Math.floor(Math.random()*wordArray.length);
+        let randomIndex = Math.floor(Math.random() * wordArray.length);
         wordArray.splice(randomIndex, 0, "\t");
     }
 
@@ -17,28 +15,17 @@ const randomTabulator = (string, tabPercentage) => {
 };
 
 const RandomTabs = (props) => {
-    const [tabPercentage, setTabPercentage] = useState(10);
-    const handleInputChange = (e) => setTabPercentage(e.currentTarget.value);
 
     return (
         <>
-            <div>
-                Add&nbsp;
-                <input
-                    type="number"
-                    value={tabPercentage}
-                    onChange={handleInputChange}
-                    className="repeat_letter_input"
-                />
-                % of Randomly Placed Tabs ({Math.round(getXPercent(props.input.split(" ").length, tabPercentage))} tabs)
-            </div>
-            <textarea
-                rows="10"
-                cols="50"
-                value={randomTabulator(props.input, tabPercentage)}
-                className="reverse_textarea passive_textarea"
-            >
-			</textarea>
+            <OutputTextPercentage
+                name="random_tabs"
+                action={randomTabulator}
+                input={props.input}
+                title0="Add"
+                title1="of Randomly Placed Tabs"
+                title2="tabs"
+            />
         </>
     );
 };

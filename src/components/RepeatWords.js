@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React from 'react';
+import OutputTextNumbered from "./OutputTextNumbered";
 
 const repeater = (str, repetitions) => {
     let wordsArray = str.split(' ');
@@ -16,24 +17,19 @@ const repeater = (str, repetitions) => {
     }
 };
 
-const RepeatLetters = (props) => {
-    const [repetitions, setRepetitions] = useState(2);
-    const handleInputChange = (e) => setRepetitions(e.currentTarget.value);
+const RepeatWords = (props) => {
 
     return (
         <>
-            <div>Repeat Words <input type="number" value={repetitions} onChange={handleInputChange}
-                                     className="repeat_letter_input"/> Times
-            </div>
-            <textarea
-                rows="10"
-                cols="50"
-                value={repeater(props.input, repetitions)}
-                className="repeatLetters_textarea passive_textarea"
-            >
-			</textarea>
+            <OutputTextNumbered
+                name="repeat_words"
+                input={props.input}
+                action={repeater}
+                title0="Repeat Words"
+                title1="Times"
+            />
         </>
     );
 };
 
-export default RepeatLetters;
+export default RepeatWords;

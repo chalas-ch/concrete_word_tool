@@ -1,8 +1,6 @@
-import React, {useState} from 'react';
-
-const getXPercent = (percentage, value) => {
-    return (percentage / 100) * value;
-};
+import React from 'react';
+import OutputTextPercentage from "./OutputTextPercentage";
+import {getXPercent} from "../helpers/Helpers";
 
 const wordDeleter = (string, wordPercentage) => {
     let wordArray = string.trim().split(" ");
@@ -16,28 +14,16 @@ const wordDeleter = (string, wordPercentage) => {
 };
 
 const DeleteWords = (props) => {
-    const [wordPercentage, setWordPercentage] = useState(10);
-    const handleInputChange = (e) => setWordPercentage(e.currentTarget.value);
-
     return (
         <>
-            <div>
-                Delete&nbsp;
-                <input
-                    type="number"
-                    value={wordPercentage}
-                    onChange={handleInputChange}
-                    className="repeat_letter_input"
-                />
-                % of Words ({Math.round(getXPercent(props.input.split(" ").length, wordPercentage))} words)
-            </div>
-            <textarea
-                rows="10"
-                cols="50"
-                value={wordDeleter(props.input, wordPercentage)}
-                className="deleteWords_textarea passive_textarea"
-            >
-			</textarea>
+            <OutputTextPercentage
+                name="delete_words"
+                action={wordDeleter}
+                input={props.input}
+                title0="Delete"
+                title1="Words"
+                title2="words"
+            />
         </>
     );
 };

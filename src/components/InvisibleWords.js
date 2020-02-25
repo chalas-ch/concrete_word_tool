@@ -1,8 +1,6 @@
-import React, {useState} from 'react';
-
-const getXPercent = (percentage, value) => {
-    return (percentage / 100) * value;
-};
+import React from 'react';
+import OutputTextPercentage from "./OutputTextPercentage";
+import {getXPercent} from "../helpers/Helpers";
 
 const wordEraser = (string, wordPercentage) => {
     let wordArray = string.trim().split(" ");
@@ -17,28 +15,17 @@ const wordEraser = (string, wordPercentage) => {
 };
 
 const InvisibleWords = (props) => {
-    const [wordPercentage, setWordPercentage] = useState(10);
-    const handleInputChange = (e) => setWordPercentage(e.currentTarget.value);
 
     return (
         <>
-            <div>
-                Make&nbsp;
-                <input
-                    type="number"
-                    value={wordPercentage}
-                    onChange={handleInputChange}
-                    className="repeat_letter_input"
-                />
-                % of Words Invisible ({Math.round(getXPercent(props.input.split(" ").length, wordPercentage))} words)
-            </div>
-            <textarea
-                rows="10"
-                cols="50"
-                value={wordEraser(props.input, wordPercentage)}
-                className="deleteWords_textarea passive_textarea"
-            >
-			</textarea>
+            <OutputTextPercentage
+                name="invisible_words"
+                action={wordEraser}
+                input={props.input}
+                title0="Make"
+                title1="of Words Invisible"
+                title2="words"
+            />
         </>
     );
 };
